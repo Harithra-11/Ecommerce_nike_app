@@ -352,4 +352,105 @@ footer{
     background-color: black;
     color: wheat;
 }
+@media  screen and (max-width:480px) {
+    nav{
+        padding: 20px;
+    }
+    .search{
+        display: none;
+    }
+    .limitedOffer{
+        font-size: medium;
+    }
+    .navBottom{
+        flex-wrap: wrap;
+    }
+    .menuItem{
+        margin: 20px;
+        font-weight: 700;
+        font-size:20px;
+    }
+    .slider{
+        clip-path: none;
+    }
+    .sliderTitle{
+        display: none;
+    }
+    .sliderPrice{
+        top: unset;
+        font-size: x-large;
+        left: 100px;
+        bottom: 10px;
+        
+    }
+    .buyButton{
+        bottom: 25px;
+        right: 30%;
+        top: unset;
+        font-size: small;
+        max-width: fit-content;
+        
+    }
+    .features{
+        flex-direction: column;
+    }
+    .product{
+        clip-path: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .productDetails{
+        width: 100%;
+        margin: 15px;
+        padding: 0;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 0;
+    }
+    .productTitle{
+        margin:0;
+        font-size: 50px;
+    }
+    .productDesc{
+        font-size: small;
+    }
+    .productImg{
+        width: 80%;
+    }
+    .gallery{
+        display: none;
+        
+
+    }
+    .newSeason{
+        flex-direction: column;
+    }
+    .nsItem:nth-child(2){
+        padding: 70px;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerLeft{
+        padding: 20px;
+        width: 90%;
+    }
+    .footerRight{
+        padding: 20px;
+        width: 90%;
+    }
+    .payment{
+        width: 70%;
+        padding: 20px;
+    }
+    
+}
+
 
